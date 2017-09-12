@@ -12,10 +12,6 @@
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <!--<property name="driver" value="${driver}"/>-->
-                <!--<property name="url" value="${url}"/>-->
-                <!--<property name="username" value="${username}"/>-->
-                <!--<property name="password" value="${password}"/>-->
                 <property name="driver" value="${jdbc.project.driver}"/>
                 <property name="url" value="${jdbc.project.url}"/>
                 <property name="username" value="${jdbc.project.username}"/>
@@ -29,7 +25,8 @@
     </environments>
 
     <mappers>
-        <!--         <mapper resource="mapping/UserSessionMapper.xml"/> -->
+        <!--直接在DB_Client中添加配置，使用注解简化开发-->
+        <!--         <mapper resource="mapping/UserMapper.xml"/> -->
     </mappers>
 
 </configuration>

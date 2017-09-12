@@ -16,7 +16,6 @@ target
 *.ipr
 *.iws
 .idea
-.idea/libraries
 .DS_Store
 atlassian-ide-plugin.xml
 maven-ant-tasks.jar

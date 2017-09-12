@@ -21,10 +21,16 @@
         <commons.io.version>2.4</commons.io.version>
         <Docker_MicroServiceJClient.version>2.0.3</Docker_MicroServiceJClient.version>
         <jetty.version>9.3.6.v20151106</jetty.version>
+        <mybatis.version>3.4.1</mybatis.version>
     </properties>
 
     <dependencies>
-
+        <!--mybatis-->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
         <!-- servlet -->
         <dependency>
             <groupId>javax.servlet</groupId>
