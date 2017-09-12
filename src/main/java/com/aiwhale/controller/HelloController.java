@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author wendong
- * @email wendong@juxinli.com
+ * @email wendong@aiwhale.com
  * @date 2017/8/16.
  */
 @RestController
