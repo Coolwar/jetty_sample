@@ -11,10 +11,6 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRegistration;
 import java.io.IOException;
 
-
-/**
- * Created by James on 16/8/12.
- */
 public class JettyWebApplicationInitializer implements WebApplicationInitializer {
     private static final Log LOGGER = LogFactory.getLog(JettyWebApplicationInitializer.class.getName());
     private static ServletContext servletContext;
